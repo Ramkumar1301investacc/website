@@ -1,0 +1,363 @@
+:root{
+    --size:0.75rem;
+    --height:18px;
+    --weight:43.75rem;
+
+
+}
+
+
+.container{
+   
+    position: absolute;
+
+    left: 398px;
+    top: 191px; display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+grid-gap:29px;
+   height: 100%;
+   
+}
+#item-0 {
+
+    width: 200px;
+    height: 160px;
+    
+background: #D0E8F2;
+border-radius: 15px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+    
+ }
+ #item-1 {
+ 
+    background: #FCFFA6;
+    border-radius: 15px;
+    width: 200px;
+    height: 160px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+    
+ }
+ #item-2 {
+ 
+    width: 200px;
+    height: 160px;
+    background: #28FFBF;
+border-radius: 15px;
+    grid-row-start: 1;
+    grid-column-start: 3;
+ 
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+ .card2Content>p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+
+ }
+ #item-3 {
+
+    background: #F5F5F5;
+border-radius: 15px;
+width: 673px;
+height: 202px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #item-4 {
+
+    width: 315px;
+    height: 158px;
+    
+    
+    background: #F5F5F5;
+    border-radius: 15px;
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+ }
+ #item-5 {
+ 
+   width: 315px;
+height: 158px;
+
+
+background: #F5F5F5;
+border-radius: 15px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+ /* change here */
+    grid-row-end: 4;
+    grid-column-end: 4;
+   margin-left :125px;
+    
+ }
+ #item-6 {
+
+    
+    
+    width: 673px;
+    height: 212px;
+
+
+background: #F3FBFE;
+border-radius: 15px; 
+    grid-row-start: 4;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 4;
+    
+ }
+
+
+
+
+
+
+.midsection{
+    position: absolute;
+
+left: 398px;
+top: 191px;
+display: grid;
+grid-template-columns:200px 200px 200px;
+grid-gap:29px;
+
+}
+
+
+
+.card1Content{
+    position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  
+  
+}
+
+ul>li{
+    list-style-type: none;
+    padding: 5px;
+    --size:0.75rem;
+    --height:18px;
+    --weight:43.75rem;
+    font-family: inter;
+   
+   
+}
+
+   
+
+
+h6{
+    font-size: var(--size);
+font-size: var(--weight);
+line-height: var(--height);
+}
+h3{
+    --size:1.56rem;
+    --weight:43.75rem;
+    --height:1.87rem;
+}
+
+.card2{
+    width: 200px;
+    height: 160px;
+    background: #FCFFA6;
+border-radius: 15px;
+font-size: var(--size);
+font-size: var(--weight);
+line-height: var(--height);
+}
+.card3{
+    width: 200px;
+    height: 160px;
+    background: #28FFBF;
+border-radius: 15px;
+
+}
+/* Card 4 Starts Here */
+.card4{
+    display: grid;
+    grid-gap: 0px;
+    width: 673px;
+height: 202px;
+background: #F5F5F5;
+border-radius: 15px;
+
+
+
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin-left: 1rem;
+    margin-right: 1rem;;
+}
+
+.cardCircle{
+    display:flex;;
+    justify-content: space-evenly;
+    margin: 1rem;
+
+}
+.cardCircle >div{
+    height: 90px;
+    width:90px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;   
+  
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+ 
+
+}
+.cardCircle>div>h1>h5{
+    font-weight: light; 
+  
+     margin-bottom: 0;
+     font-size: 12px;
+}
+.cardText{
+    display:flex;;
+    justify-content: space-evenly;
+    margin: 1rem;   
+
+
+}
+.cardText>div{
+    padding-bottom: 22px;
+    display: flex;
+    align-items: center;   
+
+    justify-content: center;
+}
+/* Card 4 CSS ENd HERE */
+
+/* Card 5 CSS Starts HERE */
+
+.secondGrid{
+    display: grid;
+    grid-template-columns:315px  315px;
+    grid-gap:2.5rem;
+  
+    
+    position:absolute;
+    left: 398px;
+top: 582px;
+    
+}
+
+
+.cardLeft{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.employeeSearch{
+    background: #D9D9D9;
+    color: gray;
+    font-size: 12px;
+    padding: 6px 14px;
+width:145px;
+    height:19px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+
+#additionalBorder{
+    width: 250px;
+height: 108.85px;
+background: #FFFFFF;
+border-radius: 12px;
+margin:28px  33px 21px  32px ;
+
+}
+.card6{
+    display:flex;
+    flex-direction: row;
+    align-items: center;   
+  
+    justify-content: space-evenly;
+} 
+.cardSixContent{
+    display:flex;
+    flex-direction: row;
+    align-items: center;   
+  
+    justify-content: space-between;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.cardRightContent {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 8px;
+line-height: 10px;
+padding:10px
+}
+.cardRight{
+    display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+ 
+    
+}
+figcaption{
+    align-items: center;
+    align-self: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 8px;
+line-height: 10px;
+padding:10px;
+}
